@@ -1,0 +1,49 @@
+button{
+    background-color: lightcoral;
+    color:blue;
+    border-radius: 8px;
+    border:1px solid maroon;
+    font-size:large;
+    margin: 4px;
+    box-shadow:8px 8px 2px 1px rgba(0, 0,255,.2);
+   
+}
+button:hover{
+    background: #008CBA;
+    color: white;
+    
+}
+h1{
+    margin-left: 450px;
+    color:darkblue;
+    font-family: verdana;
+
+}
+ .container {
+   /* background-color: aqua; */
+   width:50px;
+   height: 400px;
+   padding:20px;
+   align-items: center;
+   margin-left:300px;
+}
+table{
+    color:crimson;
+    font-size: larger;
+
+}
+#Btn1{
+    color:rgb(234, 134, 11);
+}
+#Btn2{
+    color:rgb(12, 138, 69);
+}
+#Btn3{
+    color:rgb(69, 12, 161);
+}
+#Btn4{
+    color:rgb(246, 250, 1);
+}
+#Btn5{
+    color:rgb(237, 3, 226);
+}

@@ -1,0 +1,41 @@
+.inbuild-events{
+    display: flex;
+    padding:8px;
+    border: 2px dotted blue; 
+    
+    margin:10px;
+    gap:0.8rem;
+    justify-content: center;
+}
+.btn{
+    width:90px;
+    padding:2px;
+    font-size:medium;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Alert{
+    background-color:blueviolet;
+    color: azure;
+}
+.confirm{
+    background-color: orangered;
+    color:bisque;
+}
+.prompt{
+    background-color: green;
+    color:aliceblue;
+}
+.btn:hover{ 
+    background-color:aqua;
+    color:black;
+    cursor: pointer;
+    
+
+}
+.res-div{
+    color:red;
+    text-align: center;
+    margin-top: 80px;
+    
+}

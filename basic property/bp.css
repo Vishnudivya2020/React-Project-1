@@ -1,0 +1,21 @@
+.block{
+    display: block;
+    background-color: blue;
+    color: antiquewhite;
+    padding: 3px;
+    margin: 4px;
+    text-align:center;
+    width: 100px;
+    height:20px;
+}
+.inline{
+    display:inline-block;
+    background-color: red;
+    color: antiquewhite;
+    padding: 3px;
+    margin: 4px;
+    text-align:center;
+    width: 100px;
+    height:20px;
+
+}

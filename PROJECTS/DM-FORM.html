@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM MANIPULATION WITH FORM</title>
+   <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <center>
+    <form class="D-form">
+        <h3>FORM</h3>
+        <div>
+            <lable   for="name"><b>First Name:</b></lable>
+            <input type="text" name="name"  placeholder="type your name" id="Fname"><br>
+        </div><br>
+        <div>
+            <lable ><b>Last Name:</b></lable>
+            <input  type="text"  name="name" placeholder="type your name" id="Lname"/>
+        </div><br>
+        <div class="row" style="padding-right: 200%;">
+            <div class="col-add"><b>Address:</b>
+            <textarea cols="35" rows="5" value="Address" name="address" id="address"></textarea>
+            
+            </div>
+        </div>
+        <div>
+        <label><b>Pincode:</b></label>
+        <input type="number" name="Pincode" placeholder="type your pincode....." id="Pincode">
+        </div>
+        <div id="gender">
+            <h3>Select Gender</h3>
+            <lable>Male</lable>
+            <input type="radio" name="gender" value="male" class="gender"/>
+            <lable>FeMale</lable>
+            <input type="radio" name="gender" value="FeMale" class="gender"/>
+            <lable>Others</lable>
+            <input type="radio" name="gender" value="others" class="gender" />
+            
+        </div>
+        <div id="food">
+            <h3>Choice of Food</h3>
+            <p>Must Select atleast two</p>
+            <label>Biriyani</label>
+            <input type="checkbox" name="Choice"  value="Biriyani" >
+            <lable>Roast Dosa</lable>
+            <input type="checkbox" name="Choice"  value="Roast Dosa">
+            <lable>Pongal</lable>
+            <input type="checkbox" name="Choice"  value="Pongal">
+            <lable>Uttapam</lable>
+            <input type="checkbox" name="Choice"  value="Uttapam">
+            <lable>Non-Paneer butter masala</lable>
+            <input type="checkbox" value="Non-paneer butter masala"/>
+            
+
+        </div>
+        <div id="state">
+            <lable><b>Select your state</b></lable>
+            <select name="state">
+              <option>---select---</option>
+                <option>Andhar Pradesh</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Jharkhand</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Manipur</option>
+                <option>Meghalaya</option>
+                <option>Mizoram</option>
+                <option>Nagaland</option>
+                <option>Odisha</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>Sikkim</option>
+                <option>Tamil Nadu</option>
+                <option>Telangana</option>
+                <option>Sikkim</option>
+                <option>Tripura</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+            
+            </select>
+            <div id="country">
+                <lable><b>Select your Country:</b></lable>
+                <select name="Country">
+                    <option>---select---</option>
+                    <option>Australia</option>
+                    <option>Bangladesh</option>
+                    <option>Canada</option>
+                    <option>Denmark</option>
+                    <option>Egypt</option>
+                    <option>Finland</option>
+                    <option>Germany</option>
+                    <option>Hungary</option>
+                    <option>India</option>
+                    <option>Iceland</option>
+                    <option>Japan</option>
+                    <option>Kuwait</option>
+                    <option>Qutar</option>
+                    <option>Singapore</option>
+                    <option>Thailand</option>
+                    <option>Ukraine</option>
+                    
+                </select>
+
+            </div>
+        </div>
+        <div>
+          <button type="btnsubmit" id="submit">submit</button>
+          
+        </div>
+    </form><br>
+    <div class="T-container">
+    
+      <table border="4"style="border-collapse:collapse;"cellpadding="15" width="50%" id="D-table" >
+          <tr align="center">
+              <h2>TABLE</h2>
+              
+              <th>First Name</th>
+               
+              <th>LastName</th>
+              
+              <th>Address</th>
+             
+              <th>Pincode</th>
+              
+              <th>Gender</th>
+            
+              <th>Food</th>
+              
+              <th>State</th>
+              
+              <th>Country</th>
+             
+     </tr>
+          <tr><th ></th>
+          <th ></th>
+          <th ></th>
+          <th ></th>
+          <th ></th>
+          <th ></th>
+          <th ></th>
+        </tr>
+      </table>
+      </div>
+      </center> 
+   
+    
+            
+        
+        
+
+
+    
+      <script src="./script.js"></script>
+    
+</body>
+</html>

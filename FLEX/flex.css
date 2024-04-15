@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+#main-div{
+    display: flex;
+    border:2px solid black;
+    height:580px;
+    margin:27px;
+    padding:14px;
+    gap:0.4rem;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    /* /* /* Handling  in x-axis */
+    /* justify-content: center; */
+    justify-content:space-between;
+    /* /* Handling  in y-axis */
+    align-content:space-around;
+    
+
+}
+
+.box{
+    width:50px;
+    height:50px;
+    background-color: red;
+    border:2px solid black
+     
+
+
+}

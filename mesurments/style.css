@@ -1,0 +1,37 @@
+.container{
+    
+    margin:10px;
+    padding: 10px;
+
+  
+}
+    
+
+/* pixle  */
+.btn-1{
+   background-color: aqua; 
+   width:130px;
+}
+/* point 
+1px=0.75pt
+130px=130*0.75=97.5pt
+*/
+.btn-2{
+    width:97.5pt;
+
+}
+/* inch
+1px=0.01042 inch
+130px=0.01042*130=1.3546 inch*/
+.btn-3{
+    width:1.3546in;
+
+}
+/* percentage 
+(total screen px/our own px)*100
+(130/682)*100=19.0616%
+*/
+.btn-4{
+    width: 37%;
+
+}

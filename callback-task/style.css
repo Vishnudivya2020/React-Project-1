@@ -1,0 +1,17 @@
+#divition{
+   text-align: center;
+   color:blue; 
+   width: 800px;
+   height:350px;
+   margin:100px;
+   margin-left: 250px;
+   padding-left:50px;
+   background:radial-gradient(rgb(90, 151, 212),white);
+   font-size:80px;
+   border:dotted ;
+   border-color: black;
+
+}
+.align{
+   text-align: center;
+}

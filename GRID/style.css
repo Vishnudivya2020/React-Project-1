@@ -1,0 +1,84 @@
+.box{
+    border: 1px solid black;
+    text-align: center;
+    background-color: green;
+    display: grid;
+    place-items: center;
+}
+#main-div{
+    margin:15px;
+    height:600px;
+    padding:15px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+/* grid-template-columns: 400px 180px 180px 400px; */
+/* grid-template-rows: 100px 100px; */
+}
+.grid-main{
+   display:grid;
+   height:100vh;
+   text-align:center;
+   grid-template-rows: 10vh 80vh 10vh;
+   
+   grid-template-areas: 
+   "head head head head"
+   "side main main main"
+   "foot foot foot foot" ; 
+}
+.header{
+    background-color: yellow;
+    grid-area:head;
+    /* margin:10px;
+   padding:10px; */
+
+}
+.saidebar{
+    background-color:blueviolet;
+    grid-area:side;
+    /* margin:10px;
+   padding:10px; */
+}
+.main{
+    background-color: orange;
+    grid-area:main;
+    /* /* margin:10px;
+   padding:10px; */
+}
+.footer{
+    background-color: green;
+    grid-area:foot;
+    /* margin:10px;
+   padding:10px; */
+}
+
+.cantainer{
+    display: flex;
+    margin:5px;
+    padding:5px;
+    gap:2rem;
+    flex-direction: row;
+    /* justify-content:space-between ; */
+    align-items: center;
+    
+   
+
+}
+.card{
+    background-color: bisque;
+    border-radius: 8px;
+    width:300px;
+    border: 2px solid black;
+
+}
+@media screen and (min-width:1300) and (max-width:1700){
+    .grid-main{
+        grid-template-rows:10vh  20vh 60vh 10vh;
+        grid-template-areas:
+        "head head head "
+        "side side side "
+        "main main main "
+        "foot foot foot ";
+     }
+    }
